@@ -16,7 +16,7 @@
    * Navegador web moderno (Chrome, Firefox, Edge)
    * Node.js e npm (ou yarn) instalados
  * Passos:
-   * Clonar o repositório: git clone https://seu-repositorio.git
+   * Clonar o repositório: git clone https://github.com/rossinoli/Memoria-Libras
    * Instalar as dependências: npm install ou yarn install
    * Executar o servidor de desenvolvimento (se aplicável)
 ##### Como Jogar:
