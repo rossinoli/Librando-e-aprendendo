@@ -1,5 +1,5 @@
 # Título: 
- * Nome do Jogo: memoria libras
+ * Nome do Jogo: sinaliza e combina
  * Subtítulo: Jogo da Memória em Libras para aprender e se divertir
 ## Descrição:
  * Objetivo do Jogo: Apresentar um jogo educativo e divertido para aprender a Língua Brasileira de Sinais (Libras) através de um clássico jogo da memória.
