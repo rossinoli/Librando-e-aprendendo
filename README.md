@@ -47,10 +47,6 @@ Exemplo:
 * Phaser
 * Node.js, npm
 
-*Instalação:*
-1. Clonar o repositório: git clone https: https://github.com/rossinoli/Memoria-Libras
-2. Instalar as dependências: npm install
-3. Executar o servidor de desenvolvimento: npm start
 
 *Como jogar:*
 ...
@@ -58,8 +54,6 @@ Exemplo:
 *Contribuições:*
 ...
 
-Dicas Adicionais:
- * Use Markdown: O Markdown é uma linguagem de marcação leve que facilita a formatação do texto.
- * Incluir imagens: Utilize imagens para ilustrar a interface do jogo e facilitar a compreensão.
- * Seja claro e conciso: Use uma linguagem simples e direta para explicar as coisas.
- * Mantenha o README atualizado: Sempre que fizer alterações no projeto, atualize o README.
+observações:
+* os niveil facil ser alfabeto manual
+* *nivel medio é 
