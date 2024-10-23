@@ -15,7 +15,7 @@ const handleSubmit = (event) => {
   event.preventDefault();
 
   localStorage.setItem('player', input.value);
-  window.location = '../PAGES/nivel.html';
+  window.location = '../PAGES/home.html';
 }
 
 input.addEventListener('input', validateInput);

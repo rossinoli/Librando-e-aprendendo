@@ -64,8 +64,7 @@ main {
   }
 
   .back {
-    background-color: #205375;
-    
+    background-image: url('.../images/back.jpg');
     backface-visibility: hidden;
   }
   
