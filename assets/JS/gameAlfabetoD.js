@@ -3,11 +3,15 @@ const spanPlayer = document.querySelector('.player');
 const timer = document.querySelector('.timer');
 
 const characters = [
-  'boi',
-  'cavalo',
-  'coelho',
-  'girafa',
-  'hipopotamo',
+  'LA',
+  'LB',
+  'LC',
+  'LD',
+  'LE',
+  'LF',
+  'LG',
+  'LH',
+  'LK',
 ];
 
 const createElement = (tag, className) => {
@@ -22,7 +26,7 @@ let secondCard = '';
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
-  if (disabledCards.length === 10) {
+  if (disabledCards.length === 19) {
     clearInterval(this.loop);
     alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
   }
