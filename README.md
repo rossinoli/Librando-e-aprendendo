@@ -19,9 +19,7 @@ Crianças, adolescentes, adultos e qualquer pessoa interessada em aprender Libra
  * Objetivo: Encontre todos os pares de cartas iguais.
  * Mecânica: Clique em uma carta para virá-la. Se encontrar o par correspondente, ele permanecerá visível. Caso contrário, as cartas serão viradas novamente.
  * Controles: Utilize o mouse para interagir com as cartas.
-### Licença
-[MIT License]
--Este projeto está licenciado sob a [MIT License].
+
 ### Autores
 * Thaina L. Rossinoli - Desenvolvedor, Designer, Artista.
 
