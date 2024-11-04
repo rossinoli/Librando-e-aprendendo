@@ -14,7 +14,7 @@ Crianças, adolescentes, adultos e qualquer pessoa interessada em aprender Libra
 ### Tecnologias Utilizadas:
  * Front-end: HTML, CSS, JavaScript
 #### Instalação:
- * O jogo está disponível online em: librando.netlify.app
+ * O jogo está disponível online em: (https:librando.netlify.app)
 ##### Como Jogar:
  * Objetivo: Encontre todos os pares de cartas iguais.
  * Mecânica: Clique em uma carta para virá-la. Se encontrar o par correspondente, ele permanecerá visível. Caso contrário, as cartas serão viradas novamente.
