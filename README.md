@@ -8,7 +8,7 @@ Crianças, adolescentes, adultos e qualquer pessoa interessada em aprender Libra
 * Pares de cartas: Cada par apresenta uma palavra em português e sua representação em Libras.
 * Mecânica simples: Clique nas cartas para virá-las e encontrar os pares iguais.
 
-<img src="images/jogo.gif">
+<img src="images/jogo.gif.gif">
 
 ### Tecnologias Utilizadas:
  * Front-end: HTML, CSS, JavaScript
