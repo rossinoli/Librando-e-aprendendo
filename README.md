@@ -31,3 +31,6 @@ Gostaria de agradecer ao professor Everaldo pelo apoio e incentivo na criação 
 * Vídeo: Se tiver um vídeo demonstrando o jogo, inclua o link.
 * Contribuições: Se aceitar contribuições, adicione uma seção explicando como os outros podem colaborar.
 * Melhorias futuras: Otimização, para mobile, e criar mais jogos dentro.
+
+### Licença
+Este projeto é licenciado sob a licença MIT.
