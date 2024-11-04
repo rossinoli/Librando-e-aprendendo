@@ -7,8 +7,8 @@ Crianças, adolescentes, adultos e qualquer pessoa interessada em aprender Libra
 ### Funcionalidades
 * Pares de cartas: Cada par apresenta uma palavra em português e sua representação em Libras.
 * Mecânica simples: Clique nas cartas para virá-las e encontrar os pares iguais.
-https://github.com/user-attachments/assets/24fa3df1-43e0-41de-9209-96e1ff85e83a
-### Tecnologias Utilizadas:
+<img src="https://github.com/user-attachments/assets/24fa3df1-43e0-41de-9209-96e1ff85e83a">
+>### Tecnologias Utilizadas:
  * Front-end: HTML, CSS, JavaScript
 #### Instalação:
  * O jogo está disponível online em: librando.netlify.app
