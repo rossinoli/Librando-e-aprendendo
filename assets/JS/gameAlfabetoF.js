@@ -11,7 +11,25 @@ const characters = [
   'F',
   'G',
   'H',
+  'I',
+  'J',
   'K',
+  'L',
+  'M',
+  'N',
+  'O',
+  'P',
+  'Q',
+  'R',
+  'S',
+  'T',
+  'U',
+  'V',
+  'W',
+  'X',
+  'Y',
+  'Z',
+  'Ç',
 ];
 
 const createElement = (tag, className) => {
@@ -26,7 +44,7 @@ let secondCard = '';
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
-  if (disabledCards.length === 19) {
+  if (disabledCards.length === 50) {
     clearInterval(this.loop);
     alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}`);
   }
