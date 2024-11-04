@@ -1,65 +1,31 @@
-# Título: 
- * Nome do Jogo: sinaliza e combina
- * Subtítulo: Jogo da Memória em Libras para aprender e se divertir
+# Librando e Aprendendo
+ * Jogo da Memória em Libras para aprender e se divertir
 ## Descrição:
- * Objetivo do Jogo: Apresentar um jogo educativo e divertido para aprender a Língua Brasileira de Sinais (Libras) através de um clássico jogo da memória.
- * Público-alvo: Crianças, adolescentes, adultos e qualquer pessoa interessada em aprender Libras.
- * Funcionalidades:
-   * Pares de cartas com palavras em português e seus respectivos sinais em Libras (vídeos ou imagens).
-   * Contador de tempo (opcional).
+O librando-e-aprendendo é um jogo educativo e divertido que tem como objetivo facilitar o aprendizado da Língua Brasileira de Sinais (Libras). Através de um clássico jogo da memória, o jogador é apresentado a pares de cartas contendo palavras em português e seus respectivos sinais em Libras.
+### Público-alvo
+Crianças, adolescentes, adultos e qualquer pessoa interessada em aprender Libras.
+### Funcionalidades
+* Pares de cartas: Cada par apresenta uma palavra em português e sua representação em Libras.
+* Mecânica simples: Clique nas cartas para virá-las e encontrar os pares iguais.
 ### Tecnologias Utilizadas:
- * Linguagens: HTML, CSS, JavaScript
- * Frameworks/Bibliotecas: Phaser, PixiJS (ou outras utilizadas)
- * Outras ferramentas: Editores de código, ferramentas de versionamento (Git), etc.
+ * Front-end: HTML, CSS, JavaScript
 #### Instalação:
- * Pré-requisitos:
-   * Navegador web moderno (Chrome, Firefox, Edge)
-   * Node.js e npm (ou yarn) instalados
- * Passos:
-   * Clonar o repositório: git clone https://github.com/rossinoli/Memoria-Libras
-   * Instalar as dependências: npm install ou yarn install
-   * Executar o servidor de desenvolvimento (se aplicável)
+ * O jogo está disponível online em: librando.netlify.app
 ##### Como Jogar:
- * Objetivo: Encontrar todos os pares de cartas iguais.
- * Mecânica: Clique nas cartas para virá-las. Se forem iguais, o par permanece virado. Caso contrário, as cartas são viradas novamente.
- * Controles: Utilize o mouse para clicar nas cartas.
-###### Contribuições:
- * Como contribuir: Explicar como outros desenvolvedores podem contribuir com o projeto (fork, pull requests, etc.).
- * Guia de estilo: Definir um guia de estilo para o código (linters, formatadores).
-###### Licença:
- * Tipo de licença: Especificar a licença utilizada (MIT, GPL, etc.).
- * Direitos autorais: Indicar os autores do projeto e os direitos reservados.
-###### Agradecimentos:
- * Agradecer: Agradecer a qualquer pessoa ou organização que tenha contribuído para o projeto.
-###### Contato:
- * E-mail: [endereço de email removido]
- * Perfil no GitHub: [URL inválido removido]
-Exemplo:
-# Sinaliza e Combina
+ * Objetivo: Encontre todos os pares de cartas iguais.
+ * Mecânica: Clique em uma carta para virá-la. Se encontrar o par correspondente, ele permanecerá visível. Caso contrário, as cartas serão viradas novamente.
+ * Controles: Utilize o mouse para interagir com as cartas.
+### Licença
+[MIT License]
+-Este projeto está licenciado sob a [MIT License].
+### Autores
+* Thaina L. Rossinoli - Desenvolvedor, Designer, Artista.
 
-## Jogo da Memória em Libras para aprender e se divertir
+### Agradecimentos
+Gostaria de agradecer ao professor Everaldo pelo apoio e incentivo na criação deste projeto.
 
-*Descrição:*
-...
-
-*Tecnologias Utilizadas:*
-* HTML, CSS, JavaScript
-* Phaser
-* Node.js, npm
-
-*Instalação:*
-1. Clonar o repositório: git clone https: https://github.com/rossinoli/Memoria-Libras
-2. Instalar as dependências: npm install
-3. Executar o servidor de desenvolvimento: npm start
-
-*Como jogar:*
-...
-
-*Contribuições:*
-...
-
-Dicas Adicionais:
- * Use Markdown: O Markdown é uma linguagem de marcação leve que facilita a formatação do texto.
- * Incluir imagens: Utilize imagens para ilustrar a interface do jogo e facilitar a compreensão.
- * Seja claro e conciso: Use uma linguagem simples e direta para explicar as coisas.
- * Mantenha o README atualizado: Sempre que fizer alterações no projeto, atualize o README.
+### Observações:
+* Imagens: Adicione imagens ou GIFs do jogo para torná-lo mais atrativo.
+* Vídeo: Se tiver um vídeo demonstrando o jogo, inclua o link.
+* Contribuições: Se aceitar contribuições, adicione uma seção explicando como os outros podem colaborar.
+* Melhorias futuras: Otimização, para mobile, e criar mais jogos dentro.
