@@ -27,9 +27,6 @@ Crianças, adolescentes, adultos e qualquer pessoa interessada em aprender Libra
 Gostaria de agradecer ao professor Everaldo pelo apoio e incentivo na criação deste projeto.
 
 ### Observações:
-* Imagens: Adicione imagens ou GIFs do jogo para torná-lo mais atrativo.
-* Vídeo: Se tiver um vídeo demonstrando o jogo, inclua o link.
-* Contribuições: Se aceitar contribuições, adicione uma seção explicando como os outros podem colaborar.
 * Melhorias futuras: Otimização, para mobile, e criar mais jogos dentro.
 
 ### Licença
