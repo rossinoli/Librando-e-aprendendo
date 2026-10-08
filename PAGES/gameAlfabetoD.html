@@ -8,17 +8,16 @@
   <link rel="stylesheet" href="../assets/CSS/reset.css">
   <link rel="stylesheet" href="../assets/CSS/game.css">
 
-  
-
   <title>Sinaliza e Combina</title>
 </head>
 
 <body>
-<!-- TELA DE CARREGAMENTO (Coloque aqui no topo do body) -->
+  <!-- TELA DE CARREGAMENTO -->
   <div id="loading-screen" class="loading-screen">
     <img src="../images/logo.png" alt="Mão Libras" class="waving-hand" />
     <p>Carregando sinais em Libras...</p>
   </div>
+
   <main>
     <header>
       <span class="player"></span>
@@ -28,7 +27,21 @@
     <div class="grid"></div>
   </main>
 
-  <script  src="../assets/JS/gameAlfabetoD.js"></script>
+  <!-- MODAL DE VITÓRIA (FIM DE JOGO) -->
+  <div id="modal-victory" class="modal hidden">
+    <div class="modal-content">
+      <h2>🎉 Parabéns!</h2>
+      <p>Jogador(a): <strong id="player-name-modal">thaina</strong></p>
+      <p>Tempo final: <strong id="player-time-modal">00</strong> segundos</p>
+      
+      <div class="modal-actions">
+        <a href="home.html" class="btn-home">Voltar ao Início</a>
+        <button onclick="location.reload()" class="btn-restart">Jogar Novamente</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="../assets/JS/gameAlfabetoD.js"></script>
 </body>
 
 </html>

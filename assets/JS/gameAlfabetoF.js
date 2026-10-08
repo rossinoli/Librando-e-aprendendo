@@ -30,13 +30,28 @@ const createElement = (tag, className) => {
 let firstCard = '';
 let secondCard = '';
 
+// Exibe a tela/modal de vitória com os dados do jogador
+const mostrarTelaVitoria = (nome, tempo) => {
+  const modalName = document.getElementById('player-name-modal');
+  const modalTime = document.getElementById('player-time-modal');
+  const modal = document.getElementById('modal-victory');
+
+  if (modalName) modalName.innerText = nome;
+  if (modalTime) modalTime.innerText = tempo;
+  if (modal) modal.classList.remove('hidden');
+};
+
 const checkEndGame = () => {
   const disabledCards = document.querySelectorAll('.disabled-card');
 
-  // Verifica se encontrou todos os pares sorteados nesta partida
   if (disabledCards.length === TOTAL_PARES * 2) {
     clearInterval(this.loop);
-    alert(`Parabéns, ${spanPlayer.innerHTML}! Seu tempo foi de: ${timer.innerHTML}s`);
+    
+    // Substitui o alert() chamando a tela de vitória
+    const nomeJogador = spanPlayer.innerHTML || 'thaina';
+    const tempoFinal = timer.innerHTML;
+    
+    mostrarTelaVitoria(nomeJogador, tempoFinal);
   }
 };
 

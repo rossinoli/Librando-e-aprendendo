@@ -73,6 +73,7 @@ header {
   filter: saturate(0);
   opacity: 0.5;
 }
+
 /* ========================================
    TELA DE CARREGAMENTO (AJUSTE DE ALINHAMENTO)
    ======================================== */
@@ -129,10 +130,89 @@ header {
   100% { transform: rotate(0deg); }
 }
 
-
 /* ========================================
-   RESPONSIVIDADE DO TABULEIRO DE CARTAS
+   MODAL DE VITÓRIA (PERSONALIZADO)
    ======================================== */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+  transition: opacity 0.3s ease;
+}
+
+.modal.hidden {
+  display: none !important;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  color: #205375;
+  padding: 35px 25px;
+  border-radius: 12px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+}
+
+.modal-content h2 {
+  color: #f66b0e;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.modal-content p {
+  font-size: 1.15rem;
+  margin: 12px 0;
+  color: #205375;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.btn-home, .btn-restart {
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-home {
+  background-color: #205375;
+  color: #ffffff;
+}
+
+.btn-restart {
+  background-color: #f66b0e;
+  color: #ffffff;
+}
+
+.btn-home:hover {
+  background-color: #163a52;
+}
+
+.btn-restart:hover {
+  background-color: #d85a08;
+}
+
 /* ========================================
    RESPONSIVIDADE FORÇADA PARA CELULAR
    ======================================== */

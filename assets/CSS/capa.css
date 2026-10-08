@@ -1,0 +1,59 @@
+.login-form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+  
+/* Garante que o container centralize os elementos */
+.login__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Força a imagem a mudar para a cor laranja #f66b0e */
+.img-laranja {
+  width: 220px !important; /* Aumenta o tamanho do logo (ajuste entre 200px e 280px se quiser maior) */
+  height: auto !important;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1) !important;
+}
+
+/* Garante que o texto fique branco */
+.login__header h1 {
+  color: #ffffff !important;
+  font-size: 2rem;
+  margin: 0;
+}
+  
+
+  
+  body {
+  background-color: #205375 !important;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-laranja {
+  width: 140px;
+  height: 140px;
+  background-color: #f66b0e; /* A cor laranja exata */
+  -webkit-mask-image: url('./images/logo.png');
+  mask-image: url('./images/logo.png');
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  display: inline-block;
+}
