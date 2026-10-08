@@ -159,5 +159,14 @@ const startTimer = () => {
 window.onload = () => {
   preloadImages();
   spanPlayer.innerHTML = localStorage.getItem('player');
-  loadGame();
+
+  const loadingScreen = document.getElementById('loading-screen');
+
+  // Aguarda 3 segundos para esconder o carregamento e iniciar o jogo
+  setTimeout(() => {
+    if (loadingScreen) {
+      loadingScreen.classList.add('hidden');
+    }
+    loadGame(); // Inicia o jogo e a contagem de memorização
+  }, 3000);
 };
