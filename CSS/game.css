@@ -1,0 +1,153 @@
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #205375;
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px 50px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 1.2em;
+  width: 100%;
+  max-width: 800px;
+  padding: 30px;
+  margin: 0 0 30px;
+  border-radius: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 12px;
+  width: 100%;
+  max-width: 800px;
+  margin: 20px auto 0;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  aspect-ratio: 3/4;
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+  transition: transform 400ms ease;
+  transform-style: preserve-3d;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid #f66b0e;
+  border-radius: 5px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front {
+  transform: rotateY(180deg);
+}
+
+.back {
+  background-image: url('https://github.com/user-attachments/assets/737449b3-7b69-4a3d-8d3c-f30a54615dd9');
+}
+
+.reveal-card {
+  transform: rotateY(180deg);
+}
+
+.disabled-card {
+  filter: saturate(0);
+  opacity: 0.5;
+}
+/* ========================================
+   TELA DE CARREGAMENTO (AJUSTE DE ALINHAMENTO)
+   ======================================== */
+
+.loading-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #205375; /* Fundo azul padronizado com o jogo */
+  color: #ffffff;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 20px;
+  box-sizing: border-box;
+  z-index: 9999;
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  font-family: sans-serif;
+}
+
+.loading-screen.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.waving-hand {
+  width: 140px;
+  max-width: 40vw;
+  height: auto;
+  margin-bottom: 20px;
+  filter: brightness(0) invert(1); /* Torna a imagem totalmente branca */
+  animation: waveHand 1.2s infinite ease-in-out;
+  transform-origin: bottom center;
+}
+
+.loading-screen p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0 10px;
+  line-height: 1.4;
+  text-align: center;
+  width: 100%;
+}
+
+@keyframes waveHand {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(-15deg); }
+  75% { transform: rotate(15deg); }
+  100% { transform: rotate(0deg); }
+}
+
+
+/* ========================================
+   RESPONSIVIDADE DO TABULEIRO DE CARTAS
+   ======================================== */
+/* ========================================
+   RESPONSIVIDADE FORÇADA PARA CELULAR
+   ======================================== */
+
+@media screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(4, 1fr) !important; /* Force 4 colunas em telas pequenas */
+    gap: 8px !important;
+    width: 100% !important;
+    padding: 10px !important;
+  }
+
+  .card {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 3 / 4 !important;
+  }
+}
